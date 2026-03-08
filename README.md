@@ -98,6 +98,6 @@ Examples of interactive dashboards created with visualization tools.
 
 # Contact
 
-LinkedIn: (add link)
-GitHub: https://github.com/yourusername
-Email: [your-email@email.com](mailto:your-email@email.com)
+LinkedIn: (www.linkedin.com/in/hector-david-pena)
+GitHub: https://github.com/hdpena/Hector-Pena_Portfolio.git
+Email: [hdpena14@gmail.com](mailto:hdpena14@gmail.com)
