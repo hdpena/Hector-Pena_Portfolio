@@ -27,6 +27,15 @@ I am a data analyst focused on uncovering patterns, building interpretable model
 
 ## Tools and Technologies
 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL
+- Tableau
+- Power BI
+
 ---
 
 ## Featured Projects
@@ -35,12 +44,12 @@ I am a data analyst focused on uncovering patterns, building interpretable model
 
 An application were users can input a zip code or city name located in the United States to output weather conditions.
 
-**Highlights**
+**Highlights:**
 
 * Use of API to pull data and provide users with weather information
 * Interactive application for users to search up multiple cities
 
-**Tools** Python, PyCharm, API Keys
+**Tools:** Python, PyCharm, API Keys
 
 ---
 
@@ -48,13 +57,13 @@ An application were users can input a zip code or city name located in the Unit
 
 Crime data from Los Angeles used to run time series analysis and modeling to provide viewers with crime metrics for different neighborhoods in Los Angeles. what type of crimes occur the most, when the most crimes occur, and what neighborhoods have the most significant crime rates.
 
-**Highlights**
+**Highlights:**
 
 * Time Series Analysis providing viewers with a breakdown of crime rates
 * Categorical Analysis of crime types
 * Neighborhood-level visualizations and crime summary reporting
 
-**Tools** Python, Pandas, Matplotlib
+**Tools:** Python, Pandas, Matplotlib
 
 ---
 
@@ -62,13 +71,13 @@ Crime data from Los Angeles used to run time series analysis and modeling to pro
 
 Examined EV charging infrastructure and usage patterns, including charger type, network coverage, and geographic distribution.
 
-**Highlights**
+**Highlights:**
 
 * Charger-type and network-level comparisons
 * Geographic and trend-based visualizations
 * Interpretable predictive modeling for usage insights
 
-**Tools** Python, Pandas, MatPlotLib
+**Tools:** Python, Pandas, MatPlotLib
 
 ---
 
@@ -76,15 +85,52 @@ Examined EV charging infrastructure and usage patterns, including charger type, 
 
 Yelp reviews used to examine and provide insights and recommendations for RV users 
 
-**Highlights**
+**Highlights:**
 
 * RV rentals reviews to be used for planning a cross-country trip
 * Comparative state and location analysis
 * Pattern detection for end user decision making
 
-**Tools** JSON, Python, MatPlotLib
+**Tools:** JSON, Python, MatPlotLib
 
 ---
+
+### 5. TSA Complaint Report
+
+Analysis of CSV File of TSA complaints across the United States
+
+**Highlights:**
+
+* Provide visualizations so users can see the different type of complaint
+* Gain insight about most occurred complaint amongst fliers
+
+**Tools:** JSON, Python, MatPlotLib
+
+---
+
+### 6. Child Cost Analysis Report:
+
+Take childcare prices from the US Census and with the use of Tableau provide visualizations and insights for viewers
+
+**Highlights:**
+
+* Provide Analysis as to what areas of the United States are most expensive for childcare
+* Inidividuals looking to start a family can use this information to gauge the cost of raising a child
+
+**Tools:** Tableau, Excel
+
+---
+
+### 7. Theme Park Injury Regression Model:
+
+Provides guest injuries report amongst Theme Parks in the United States
+
+**Highlights:**
+
+* Regression modeling to test the likelihood of predicting what type of injury is to occur
+* Modeling showing what age group is the most likley to be affected by an injury
+
+**Tools:** Python, Regression Modeling, MatPlotLib
 
 ## Project Gallery
 
@@ -126,7 +172,6 @@ Each project folder can include:
 * `README.md` with business context, methods, and findings
 * `data/` for raw and processed datasets
 * `notebooks/` for cleaning, EDA, and modeling
-* `scripts/` for reusable code
 * `visuals/` for charts, dashboards, and exports
 * `outputs/` for reports, tables, and presentation assets
 
@@ -157,21 +202,12 @@ This portfolio is designed to demonstrate:
 
 ## Connect With Me
 
-* **GitHub:** [https://github.com/yourusername](https://github.com/hdpena/Hector-Pena_Portfolio/)
+* **GitHub:** https://github.com/hdpena/Hector-Pena_Portfolio/
 * **LinkedIn:** www.linkedin.com/in/hector-david-pena
 * **Email:** [hdpena14@gmail.com](mailto:hdpena14@gmail.com)
 
 ---
 
-## Optional Add-Ons
-
-To make this portfolio feel more like a mini website on GitHub, you can also add:
-
-* Project preview images or GIFs
-* Dashboard screenshots
-* Shields.io badges for tools and project status
-* A pinned "Featured Project" section at the top
-* A custom banner image with your name and title
 
 ---
 
