@@ -104,7 +104,7 @@ Analysis of CSV File of TSA complaints across the United States
 * Provide visualizations so users can see the different type of complaint
 * Gain insight about most occurred complaint amongst fliers
 
-**Tools:** JSON, Python, MatPlotLib
+**Tools:** Python, MatPlotLib
 
 ---
 
@@ -121,7 +121,7 @@ Take childcare prices from the US Census and with the use of Tableau provide vis
 
 ---
 
-### 7. Theme Park Injury Regression Model:
+### 7. Theme Park Injury Model:
 
 Provides guest injuries report amongst Theme Parks in the United States
 
@@ -132,15 +132,30 @@ Provides guest injuries report amongst Theme Parks in the United States
 
 **Tools:** Python, Regression Modeling, MatPlotLib
 
+---
+
+### 8. Cardiovascular Health Analysis:
+
+Use patient data to analayze any trends or causes of cardiovascular health leading to heart disease
+
+**Highlights:**
+
+* Classification and regression modeling help doctors classify their patients into at risk, low risk, or no risk for heart disease
+* Health analytics stufy helps us identify any markers for heart health classification
+
+**Tools:** Python, Logistic Regression Modeling, MatPlotLib, Seaborn
 ## Project Gallery
 
 | Project                      | Focus                             | Tools                        |
 | ---------------------------- | --------------------------------- | ---------------------------- |
 | Weather Lookup Application   | Time series and forecasting       | Python, Pandas, Scikit-learn |
 | Data Crime Modeling          | EDA and content insights          | Python, Pandas               |
-| EV Charging Station Analysis | Infrastructure and usage patterns | Python, MatPlotLib1          |
+| EV Charging Station Analysis | Infrastructure and usage patterns | Python, MatPlotLib           |
 | RV Yelp Review Modeling      | Behavioral patterns               | Python, JSON                 |
-
+| TSA Compliance Report        | Feature Classification            | Python, MatPlotLib           |
+| Child Care Analysis Report   | EDA and content insights          | Excel, Tableau               |
+| Theme Park Injury Model      | Regression, Predictive Modeling   | Python, Pandas               |
+| Cardiovascular Health Analysis | Regression Modeling             | Python, Seaborn              |
 ---
 
 ## Repository Layout
@@ -211,6 +226,6 @@ This portfolio is designed to demonstrate:
 
 ---
 
-## Personal Brand Line
+
 
 **The Data Whisperer** — turning complex datasets into clear stories, sharp visuals, and actionable insight.
