@@ -1,266 +1,111 @@
-**The Data Whisperer** — turning complex datasets into clear stories, sharp visuals, and actionable insight.
+# 🚔 Crime Data Analysis (2010–2017)
 
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=2F80ED&center=true&vCenter=true&width=900&lines=Hector+Pe%C3%B1a+%7C+The+Data+Whisperer;Data+Analyst+%7C+Visualization+%7C+Predictive+Modeling;Turning+Data+Into+Clear+Insights" />
-</p>
+## 📊 Project Overview
 
+This project analyzes **crime data from 2010–2017** to identify patterns, trends, and geographic differences in criminal activity. Using Python-based data analysis tools, the project explores crime frequencies, area-level crime distribution, and key insights through exploratory data analysis (EDA).
 
----
+The project demonstrates practical **data analysis and visualization techniques** commonly used in real-world analytics workflows.
 
-# 👋 Hello, I'm Hector Peña
-
-**Data Analyst | Visualization | Predictive Modeling**
-
-I specialize in transforming raw datasets into **clear insights, powerful visuals, and data-driven stories**. My work focuses on exploratory analysis, modeling, and dashboards that help people understand complex information quickly.
+This notebook is part of a **data analytics portfolio project** showcasing skills in Python, data exploration, and storytelling with data.
 
 ---
 
-# 🚀 About Me
+# 🎯 Project Objectives
 
-I am a data analyst passionate about discovering patterns, building interpretable models, and presenting insights that support decision-making.
+The main goals of this project are to:
 
-My projects often include:
-
-* Time Series Analysis
-* Exploratory Data Analysis (EDA)
-* Dashboard Development
-* Geospatial Analysis
-* Predictive Modeling
-* Data Storytelling
+• Analyze crime frequency across different crime codes
+• Identify the most common types of crimes
+• Compare crime incidents across geographic areas
+• Visualize crime patterns using charts and summaries
+• Practice exploratory data analysis techniques
 
 ---
 
-# 🧠 Core Skills
+# 📁 Dataset
 
-* Data Cleaning & Preparation
-* Exploratory Data Analysis (EDA)
-* Statistical Analysis
-* Predictive Modeling
-* Time Series Analysis
-* Dashboard Design
-* Data Storytelling
-* Reporting & Data Communication
 
----
+The dataset includes information such as:
 
-# 🛠 Tools & Technologies
+• Crime codes
+• Geographic areas
+• Incident counts
+• Descriptive information about crime events
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Analytics-blue" />
-  <img src="https://img.shields.io/badge/Pandas-Data%20Wrangling-orange" />
-  <img src="https://img.shields.io/badge/NumPy-Computing-informational" />
-  <img src="https://img.shields.io/badge/SQL-Database-success" />
-  <img src="https://img.shields.io/badge/Tableau-Visualization-purple" />
-  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" />
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-blue" />
-</p>
-
+The data is analyzed to better understand **crime trends and spatial distribution** across different locations.
 
 ---
 
-# 📊 Featured Projects
+# 🛠 Technologies Used
 
-### 1. Weather Lookup Application:
+### Programming Language
 
-An application were users can input a zip code or city name located in the United States to output weather conditions.
+Python 3
 
-**Highlights:**
+### Libraries
 
-* Use of API to pull data and provide users with weather information
-* Interactive application for users to search up multiple cities
+Pandas – data manipulation and analysis
+NumPy – numerical computing
+Matplotlib – data visualization
+Seaborn – statistical visualization
 
-**Tools:** Python, PyCharm, API Keys
-
----
-
-### 2. Data Crime Modeling:
-
-Crime data from Los Angeles used to run time series analysis and modeling to provide viewers with crime metrics for different neighborhoods in Los Angeles. what type of crimes occur the most, when the most crimes occur, and what neighborhoods have the most significant crime rates.
-
-**Highlights:**
-
-* Time Series Analysis providing viewers with a breakdown of crime rates
-* Categorical Analysis of crime types
-* Neighborhood-level visualizations and crime summary reporting
-
-**Tools:** Python, Pandas, Matplotlib
+These tools are widely used in **data science, analytics, and machine learning workflows**.
 
 ---
 
-### 3. EV Charging Station Analysis:
+## 2️⃣ Data Exploration
 
-Examined EV charging infrastructure and usage patterns, including charger type, network coverage, and geographic distribution.
+Initial data exploration includes:
 
-**Highlights:**
-
-* Charger-type and network-level comparisons
-* Geographic and trend-based visualizations
-* Interpretable predictive modeling for usage insights
-
-**Tools:** Python, Pandas, MatPlotLib
+• Inspecting dataset structure
+• Reviewing column names and variables
+• Understanding crime code distributions
+• Exploring area-based crime counts
 
 ---
 
-### 4. RV Yelp Review Modeling:
+## 3️⃣ Data Aggregation
 
-Yelp reviews used to examine and provide insights and recommendations for RV users 
+Crime incidents are grouped to analyze patterns across crime types and locations.
 
-**Highlights:**
 
-* RV rentals reviews to be used for planning a cross-country trip
-* Comparative state and location analysis
-* Pattern detection for end user decision making
-
-**Tools:** JSON, Python, MatPlotLib
+This helps identify which crimes occur most frequently.
 
 ---
 
-### 5. TSA Complaint Report
+## 4️⃣ Data Visualization
 
-Analysis of CSV File of TSA complaints across the United States
+Visualizations are used to better understand crime patterns.
 
-**Highlights:**
+Examples include:
 
-* Provide visualizations so users can see the different type of complaint
-* Gain insight about most occurred complaint amongst fliers
-
-**Tools:** Python, MatPlotLib
-
----
-
-### 6. Child Cost Analysis Report:
-
-Take childcare prices from the US Census and with the use of Tableau provide visualizations and insights for viewers
-
-**Highlights:**
-
-* Provide Analysis as to what areas of the United States are most expensive for childcare
-* Inidividuals looking to start a family can use this information to gauge the cost of raising a child
-
-**Tools:** Tableau, Excel
+• Bar charts of crime code frequency
+• Area-based crime distribution
+• Comparative summaries of crime activity
 
 ---
 
-### 7. Theme Park Injury Model:
+# 📈 Key Insights
 
-Provides guest injuries report amongst Theme Parks in the United States
+The analysis highlights:
 
-**Highlights:**
+• The most frequently occurring crime codes
+• Areas with the highest crime activity
+• Patterns in crime distribution across geographic locations
 
-* Regression modeling to test the likelihood of predicting what type of injury is to occur
-* Modeling showing what age group is the most likley to be affected by an injury
-
-**Tools:** Python, Regression Modeling, MatPlotLib
-
----
-
-### 8. Cardiovascular Health Analysis:
-
-Use patient data to analayze any trends or causes of cardiovascular health leading to heart disease
-
-**Highlights:**
-
-* Classification and regression modeling help doctors classify their patients into at risk, low risk, or no risk for heart disease
-* Health analytics stufy helps us identify any markers for heart health classification
-
-**Tools:** Python, Logistic Regression Modeling, MatPlotLib, Seaborn
-
-# 🖼 Project Gallery
-
-| Project                      | Focus                             | Tools                        |
-| ---------------------------- | --------------------------------- | ---------------------------- |
-| Weather Lookup Application   | Time series and forecasting       | Python, Pandas, Scikit-learn |
-| Data Crime Modeling          | EDA and content insights          | Python, Pandas               |
-| EV Charging Station Analysis | Infrastructure and usage patterns | Python, MatPlotLib           |
-| RV Yelp Review Modeling      | Behavioral patterns               | Python, JSON                 |
-| TSA Compliance Report        | Feature Classification            | Python, MatPlotLib           |
-| Child Care Analysis Report   | EDA and content insights          | Excel, Tableau               |
-| Theme Park Injury Model      | Regression, Predictive Modeling   | Python, Pandas               |
-| Cardiovascular Health Analysis | Regression Modeling             | Python, Seaborn              |
----
-
-# 🗂 Repository Structure
-
-```text
-portfolio/
-├── README.md
-├── projects/
-│   ├── retail-sales-forecasting/
-│   ├── netflix-content-analysis/
-│   ├── ev-charging-station-analysis/
-│   └── visitor-log-analysis/
-├── dashboards/
-│   ├── tableau/
-│   └── powerbi/
-├── presentations/
-├── visuals/
-├── utilities/
-├── requirements.txt
-└── .gitignore
-```
+These insights help illustrate how crime incidents vary across different areas.
 
 ---
 
-## What You’ll Find in Each Project
+# 💡 Skills Demonstrated
 
-Each project folder can include:
+This project demonstrates the following analytics skills:
 
-* `README.md` with business context, methods, and findings
-* `data/` for raw and processed datasets
-* `notebooks/` for cleaning, EDA, and modeling
-* `visuals/` for charts, dashboards, and exports
-* `outputs/` for reports, tables, and presentation assets
-
----
-
-# 🔬 My Data Analysis Workflow
-
-1️⃣ Define the problem
-
-2️⃣ Collect and clean the data
-
-3️⃣ Explore patterns and relationships
-
-4️⃣ Build visualizations that explain insights
-
-5️⃣ Apply interpretable models when needed
-
-6️⃣ Communicate findings clearly
+• Exploratory Data Analysis (EDA)
+• Data cleaning and aggregation
+• Data visualization
+• Python data analysis workflow
+• Pattern discovery in real-world datasets
 
 ---
-
-# 📈 Portfolio Goals
-
-This portfolio demonstrates:
-
-✔ Analytical thinking
-
-✔ Clean, reproducible workflows
-
-✔ Strong visualization skills
-
-✔ Practical modeling techniques
-
-✔ Data storytelling
-
----
-
-# 📬 Connect With Me
-
-<p align="center">
-
-GitHub • https://github.com/hdpena/Hector-Pena_Portfolio/
-
-LinkedIn • www.linkedin.com/in/hector-david-pena
-
-Email • [hdpena14@gmail.com](mailto:hdpena14@gmail.com)
-
-</p>
-
----
-
-# ⭐ Personal Brand
-
-**The Data Whisperer**
-Turning complex datasets into clear stories, powerful visuals, and actionable insights.
