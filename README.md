@@ -1,266 +1,140 @@
-**The Data Whisperer** — turning complex datasets into clear stories, sharp visuals, and actionable insight.
+# 🏠 Home Price Prediction  
+### Exploratory Data Analysis and Regression Modeling
+
+This project demonstrates a complete data science workflow for predicting housing prices using exploratory data analysis (EDA), feature engineering, and multiple regression models. The goal is to understand which housing features most strongly influence price and to build predictive models that estimate home values.
+
+---
+
+# 📊 Project Overview
+
+Housing prices are influenced by many factors such as property size, number of rooms, location characteristics, and the age of the home. This project analyzes a housing dataset and applies machine learning techniques to predict `House_Price`.
+
+The notebook walks through the full analytical pipeline:
+
+- Data inspection and cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Data preprocessing and scaling  
+- Model training  
+- Model evaluation and comparison  
+
+The project is designed as a **portfolio-ready machine learning analysis for housing price prediction**.
+
+---
+
+# 📂 Dataset Features
+
+The dataset contains several variables that describe housing characteristics:
+
+| Feature | Description |
+|------|-------------|
+| Square_Footage | Total living space of the home |
+| Num_Bedrooms | Number of bedrooms |
+| Num_Bathrooms | Number of bathrooms |
+| Year_Built | Year the home was constructed |
+| Lot_Size | Size of the property lot |
+| Garage_Size | Capacity of the garage |
+| Neighborhood_Quality | Rating representing neighborhood desirability |
+| House_Price | Target variable representing home price |
 
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=2F80ED&center=true&vCenter=true&width=900&lines=Hector+Pe%C3%B1a+%7C+The+Data+Whisperer;Data+Analyst+%7C+Visualization+%7C+Predictive+Modeling;Turning+Data+Into+Clear+Insights" />
-</p>
+This feature helps capture how property age affects housing value.
+
+---
+
+# 🔍 Exploratory Data Analysis
+
+Exploratory analysis was conducted to understand the structure and patterns within the dataset.
+
+EDA steps included:
+
+- Dataset preview (`head`)
+- Data type inspection (`info`)
+- Duplicate value detection
+- Missing value analysis
+- Distribution analysis using histograms
+- Relationship analysis using regression plots
+- Joint plots for continuous feature relationships
+- Boxplots to identify potential outliers
+- Correlation heatmap to identify key predictors
 
 
 ---
 
-# 👋 Hello, I'm Hector Peña
+# ⚙️ Data Preprocessing
 
-**Data Analyst | Visualization | Predictive Modeling**
+Several preprocessing steps were applied before training machine learning models:
 
-I specialize in transforming raw datasets into **clear insights, powerful visuals, and data-driven stories**. My work focuses on exploratory analysis, modeling, and dashboards that help people understand complex information quickly.
+- Standard scaling of numerical features
+- Feature engineering using `Age`
+- Dropping the original `Year_Built` column after deriving `Age`
+- Train-test split of the dataset
 
----
+Dataset split:
 
-# 🚀 About Me
-
-I am a data analyst passionate about discovering patterns, building interpretable models, and presenting insights that support decision-making.
-
-My projects often include:
-
-* Time Series Analysis
-* Exploratory Data Analysis (EDA)
-* Dashboard Development
-* Geospatial Analysis
-* Predictive Modeling
-* Data Storytelling
+- **80% Training Data**
+- **20% Testing Data**
 
 ---
 
-# 🧠 Core Skills
+# 🤖 Machine Learning Models
 
-* Data Cleaning & Preparation
-* Exploratory Data Analysis (EDA)
-* Statistical Analysis
-* Predictive Modeling
-* Time Series Analysis
-* Dashboard Design
-* Data Storytelling
-* Reporting & Data Communication
+Multiple regression models were trained and compared.
 
----
+## Linear Regression
+A baseline regression model used to estimate housing prices based on input features.
 
-# 🛠 Tools & Technologies
+## SGD Regressor
+A stochastic gradient descent model used for efficient optimization on larger datasets.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Analytics-blue" />
-  <img src="https://img.shields.io/badge/Pandas-Data%20Wrangling-orange" />
-  <img src="https://img.shields.io/badge/NumPy-Computing-informational" />
-  <img src="https://img.shields.io/badge/SQL-Database-success" />
-  <img src="https://img.shields.io/badge/Tableau-Visualization-purple" />
-  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" />
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-blue" />
-</p>
+## Lasso Regression
+A regularized regression model that helps reduce overfitting and can perform feature selection.
 
+## L2 Regularized Model
+An SGD regression model with L2 penalty used to reduce variance and improve generalization.
 
 ---
 
-# 📊 Featured Projects
+# 📈 Model Evaluation
 
-### 1. Weather Lookup Application:
+Models were evaluated using standard regression metrics:
 
-An application were users can input a zip code or city name located in the United States to output weather conditions.
+- **R² Score**
+- **Mean Squared Error (MSE)**
+- **Mean Absolute Error (MAE)**
 
-**Highlights:**
+Example performance results:
 
-* Use of API to pull data and provide users with weather information
-* Interactive application for users to search up multiple cities
+| Model | Train R² | Test R² |
+|------|------|------|
+| Linear Regression | 0.9985 | 0.9984 |
+| SGD Regressor | 0.9984 | 0.9983 |
+| Regularized L2 Model | 0.9816 | 0.9816 |
 
-**Tools:** Python, PyCharm, API Keys
-
----
-
-### 2. Data Crime Modeling:
-
-Crime data from Los Angeles used to run time series analysis and modeling to provide viewers with crime metrics for different neighborhoods in Los Angeles. what type of crimes occur the most, when the most crimes occur, and what neighborhoods have the most significant crime rates.
-
-**Highlights:**
-
-* Time Series Analysis providing viewers with a breakdown of crime rates
-* Categorical Analysis of crime types
-* Neighborhood-level visualizations and crime summary reporting
-
-**Tools:** Python, Pandas, Matplotlib
+The high R² values indicate that the models capture most of the variance in housing prices for this dataset.
 
 ---
 
-### 3. EV Charging Station Analysis:
+# 🧰 Technologies Used
 
-Examined EV charging infrastructure and usage patterns, including charger type, network coverage, and geographic distribution.
+This project was developed using the following tools and libraries:
 
-**Highlights:**
+- Python
+- Jupyter Notebook
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
-* Charger-type and network-level comparisons
-* Geographic and trend-based visualizations
-* Interpretable predictive modeling for usage insights
-
-**Tools:** Python, Pandas, MatPlotLib
-
----
-
-### 4. RV Yelp Review Modeling:
-
-Yelp reviews used to examine and provide insights and recommendations for RV users 
-
-**Highlights:**
-
-* RV rentals reviews to be used for planning a cross-country trip
-* Comparative state and location analysis
-* Pattern detection for end user decision making
-
-**Tools:** JSON, Python, MatPlotLib
 
 ---
 
-### 5. TSA Complaint Report
+# 📊 Key Insights
 
-Analysis of CSV File of TSA complaints across the United States
+Important findings from the analysis include:
 
-**Highlights:**
-
-* Provide visualizations so users can see the different type of complaint
-* Gain insight about most occurred complaint amongst fliers
-
-**Tools:** Python, MatPlotLib
-
----
-
-### 6. Child Cost Analysis Report:
-
-Take childcare prices from the US Census and with the use of Tableau provide visualizations and insights for viewers
-
-**Highlights:**
-
-* Provide Analysis as to what areas of the United States are most expensive for childcare
-* Inidividuals looking to start a family can use this information to gauge the cost of raising a child
-
-**Tools:** Tableau, Excel
-
----
-
-### 7. Theme Park Injury Model:
-
-Provides guest injuries report amongst Theme Parks in the United States
-
-**Highlights:**
-
-* Regression modeling to test the likelihood of predicting what type of injury is to occur
-* Modeling showing what age group is the most likley to be affected by an injury
-
-**Tools:** Python, Regression Modeling, MatPlotLib
-
----
-
-### 8. Cardiovascular Health Analysis:
-
-Use patient data to analayze any trends or causes of cardiovascular health leading to heart disease
-
-**Highlights:**
-
-* Classification and regression modeling help doctors classify their patients into at risk, low risk, or no risk for heart disease
-* Health analytics stufy helps us identify any markers for heart health classification
-
-**Tools:** Python, Logistic Regression Modeling, MatPlotLib, Seaborn
-
-# 🖼 Project Gallery
-
-| Project                      | Focus                             | Tools                        |
-| ---------------------------- | --------------------------------- | ---------------------------- |
-| Weather Lookup Application   | Time series and forecasting       | Python, Pandas, Scikit-learn |
-| Data Crime Modeling          | EDA and content insights          | Python, Pandas               |
-| EV Charging Station Analysis | Infrastructure and usage patterns | Python, MatPlotLib           |
-| RV Yelp Review Modeling      | Behavioral patterns               | Python, JSON                 |
-| TSA Compliance Report        | Feature Classification            | Python, MatPlotLib           |
-| Child Care Analysis Report   | EDA and content insights          | Excel, Tableau               |
-| Theme Park Injury Model      | Regression, Predictive Modeling   | Python, Pandas               |
-| Cardiovascular Health Analysis | Regression Modeling             | Python, Seaborn              |
----
-
-# 🗂 Repository Structure
-
-```text
-portfolio/
-├── README.md
-├── projects/
-│   ├── retail-sales-forecasting/
-│   ├── netflix-content-analysis/
-│   ├── ev-charging-station-analysis/
-│   └── visitor-log-analysis/
-├── dashboards/
-│   ├── tableau/
-│   └── powerbi/
-├── presentations/
-├── visuals/
-├── utilities/
-├── requirements.txt
-└── .gitignore
-```
-
----
-
-## What You’ll Find in Each Project
-
-Each project folder can include:
-
-* `README.md` with business context, methods, and findings
-* `data/` for raw and processed datasets
-* `notebooks/` for cleaning, EDA, and modeling
-* `visuals/` for charts, dashboards, and exports
-* `outputs/` for reports, tables, and presentation assets
-
----
-
-# 🔬 My Data Analysis Workflow
-
-1️⃣ Define the problem
-
-2️⃣ Collect and clean the data
-
-3️⃣ Explore patterns and relationships
-
-4️⃣ Build visualizations that explain insights
-
-5️⃣ Apply interpretable models when needed
-
-6️⃣ Communicate findings clearly
-
----
-
-# 📈 Portfolio Goals
-
-This portfolio demonstrates:
-
-✔ Analytical thinking
-
-✔ Clean, reproducible workflows
-
-✔ Strong visualization skills
-
-✔ Practical modeling techniques
-
-✔ Data storytelling
-
----
-
-# 📬 Connect With Me
-
-<p align="center">
-
-GitHub • https://github.com/hdpena/Hector-Pena_Portfolio/
-
-LinkedIn • www.linkedin.com/in/hector-david-pena
-
-Email • [hdpena14@gmail.com](mailto:hdpena14@gmail.com)
-
-</p>
-
----
-
-# ⭐ Personal Brand
-
-**The Data Whisperer**
-Turning complex datasets into clear stories, powerful visuals, and actionable insights.
+- Square footage has a strong positive relationship with housing prices.
+- Bedroom and bathroom counts also contribute to property value.
+- Property age provides additional predictive information.
+- Linear regression models performed very well for this dataset.
