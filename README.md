@@ -1,44 +1,65 @@
-# Hector Peña — The Data Whisperer
+**The Data Whisperer** — turning complex datasets into clear stories, sharp visuals, and actionable insight.
 
-Welcome to my data analytics portfolio.
 
-I turn raw data into clear, decision-ready insights through exploratory analysis, visualization, and predictive modeling. My work blends analytical rigor with visual storytelling across Python, SQL, Tableau, Power BI, and presentation-ready reporting.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=2F80ED&center=true&vCenter=true&width=900&lines=Hector+Pe%C3%B1a+%7C+The+Data+Whisperer;Data+Analyst+%7C+Visualization+%7C+Predictive+Modeling;Turning+Data+Into+Clear+Insights" />
+</p>
 
----
-
-## About Me
-
-I am a data analyst focused on uncovering patterns, building interpretable models, and presenting results in ways that are useful to both technical and non-technical audiences. My projects span time series analysis, dashboard development, geospatial analysis, customer and visitor behavior, EV infrastructure, and streaming content insights.
 
 ---
 
-## Core Skills
+# 👋 Hello, I'm Hector Peña
 
-* Data Cleaning and Preparation
+**Data Analyst | Visualization | Predictive Modeling**
+
+I specialize in transforming raw datasets into **clear insights, powerful visuals, and data-driven stories**. My work focuses on exploratory analysis, modeling, and dashboards that help people understand complex information quickly.
+
+---
+
+# 🚀 About Me
+
+I am a data analyst passionate about discovering patterns, building interpretable models, and presenting insights that support decision-making.
+
+My projects often include:
+
+* Time Series Analysis
+* Exploratory Data Analysis (EDA)
+* Dashboard Development
+* Geospatial Analysis
+* Predictive Modeling
+* Data Storytelling
+
+---
+
+# 🧠 Core Skills
+
+* Data Cleaning & Preparation
 * Exploratory Data Analysis (EDA)
 * Statistical Analysis
 * Predictive Modeling
 * Time Series Analysis
 * Dashboard Design
 * Data Storytelling
-* Reporting and Presentation Design
+* Reporting & Data Communication
 
 ---
 
-## Tools and Technologies
+# 🛠 Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SQL
-- Tableau
-- Power BI
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Analytics-blue" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Wrangling-orange" />
+  <img src="https://img.shields.io/badge/NumPy-Computing-informational" />
+  <img src="https://img.shields.io/badge/SQL-Database-success" />
+  <img src="https://img.shields.io/badge/Tableau-Visualization-purple" />
+  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" />
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-blue" />
+</p>
+
 
 ---
 
-## Featured Projects
+# 📊 Featured Projects
 
 ### 1. Weather Lookup Application:
 
@@ -144,7 +165,8 @@ Use patient data to analayze any trends or causes of cardiovascular health leadi
 * Health analytics stufy helps us identify any markers for heart health classification
 
 **Tools:** Python, Logistic Regression Modeling, MatPlotLib, Seaborn
-## Project Gallery
+
+# 🖼 Project Gallery
 
 | Project                      | Focus                             | Tools                        |
 | ---------------------------- | --------------------------------- | ---------------------------- |
@@ -158,7 +180,7 @@ Use patient data to analayze any trends or causes of cardiovascular health leadi
 | Cardiovascular Health Analysis | Regression Modeling             | Python, Seaborn              |
 ---
 
-## Repository Layout
+# 🗂 Repository Structure
 
 ```text
 portfolio/
@@ -192,40 +214,53 @@ Each project folder can include:
 
 ---
 
-## My Workflow
+# 🔬 My Data Analysis Workflow
 
-1. Define the question
-2. Clean and validate the data
-3. Explore patterns and relationships
-4. Build visuals that explain the story
-5. Develop interpretable models when needed
-6. Present insights clearly for decision-making
+1️⃣ Define the problem
 
----
+2️⃣ Collect and clean the data
 
-## Portfolio Goals
+3️⃣ Explore patterns and relationships
 
-This portfolio is designed to demonstrate:
+4️⃣ Build visualizations that explain insights
 
-* Strong analytical thinking
-* Clean and reproducible workflows
-* Clear visual communication
-* Business-ready storytelling
-* Practical technical skills across the analytics stack
+5️⃣ Apply interpretable models when needed
+
+6️⃣ Communicate findings clearly
 
 ---
 
-## Connect With Me
+# 📈 Portfolio Goals
 
-* **GitHub:** https://github.com/hdpena/Hector-Pena_Portfolio/
-* **LinkedIn:** www.linkedin.com/in/hector-david-pena
-* **Email:** [hdpena14@gmail.com](mailto:hdpena14@gmail.com)
+This portfolio demonstrates:
+
+✔ Analytical thinking
+
+✔ Clean, reproducible workflows
+
+✔ Strong visualization skills
+
+✔ Practical modeling techniques
+
+✔ Data storytelling
 
 ---
 
+# 📬 Connect With Me
+
+<p align="center">
+
+GitHub • https://github.com/hdpena/Hector-Pena_Portfolio/
+
+LinkedIn • www.linkedin.com/in/hector-david-pena
+
+Email • [hdpena14@gmail.com](mailto:hdpena14@gmail.com)
+
+</p>
 
 ---
 
+# ⭐ Personal Brand
 
-
-**The Data Whisperer** — turning complex datasets into clear stories, sharp visuals, and actionable insight.
+**The Data Whisperer**
+Turning complex datasets into clear stories, powerful visuals, and actionable insights.
