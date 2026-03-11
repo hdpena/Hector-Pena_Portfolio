@@ -174,10 +174,10 @@ Use patient data to analayze any trends or causes of cardiovascular health leadi
 | Data Crime Modeling          | EDA and content insights          | Python, Pandas               |
 | EV Charging Station Analysis | Infrastructure and usage patterns | Python, MatPlotLib           |
 | RV Yelp Review Modeling      | Behavioral patterns               | Python, JSON                 |
-| TSA Compliance Report        | Feature Classification            | Python, MatPlotLib           |
 | Child Care Analysis Report   | EDA and content insights          | Excel, Tableau               |
 | Theme Park Injury Model      | Regression, Predictive Modeling   | Python, Pandas               |
 | Cardiovascular Health Analysis | Regression Modeling             | Python, Seaborn              |
+| Home-Pricing-Analysis        | Regression Modeling               | Python, MatPlotLib, Seaborn  |
 ---
 
 # 🗂 Repository Structure
