@@ -178,29 +178,11 @@ Use patient data to analayze any trends or causes of cardiovascular health leadi
 | Theme Park Injury Model      | Regression, Predictive Modeling   | Python, Pandas               |
 | Cardiovascular Health Analysis | Regression Modeling             | Python, Seaborn              |
 | Home-Pricing-Analysis        | Regression Modeling               | Python, MatPlotLib, Seaborn  |
----
 
-# 🗂 Repository Structure
-
-```text
-portfolio/
-├── README.md
-├── projects/
-│   ├── retail-sales-forecasting/
-│   ├── netflix-content-analysis/
-│   ├── ev-charging-station-analysis/
-│   └── visitor-log-analysis/
-├── dashboards/
-│   ├── tableau/
-│   └── powerbi/
-├── presentations/
-├── visuals/
-├── utilities/
-├── requirements.txt
-└── .gitignore
-```
 
 ---
+
+
 
 ## What You’ll Find in Each Project
 
